@@ -1,1 +1,8 @@
-h1 {text-align; center;}
+h1 {
+  font-family: arial, "Times New Roman";
+  font-size: 33px;
+  font-style: normal;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+}
