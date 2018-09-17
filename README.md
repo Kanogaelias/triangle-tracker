@@ -12,7 +12,14 @@ Gave me weird errors about no constructor body) or dumb errors in my Makefile, w
      have a git-hub account
      have data bundles
      enjoy your tracking
+## Behaviour Driven Development
+      This application is based on the idea of naming a triangle depending on its length and sides. it has 4 feedbacks when you key in values in the input boxes. These are:
+             Equilateral: All sides are equal
+             Isosceles: Exactly 2 sides are equal
+             Scalene: No sides are equal
+             NOT a triangle: The sum of the lengths of any two sides of a triangle is less than or equal to the length of the third side
 
+ livesite: file:///home/elias/Documents/moringa-school-projects/triangle-tracker/index.html    
 {This app depends on text editors and a terminal. Installation of such softwares is necessary for styling and javascripts}
 ## There are no Known Bugs
 {This app has been created using Html, CSS and JavaScript languages.}
