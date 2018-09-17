@@ -16,15 +16,21 @@
       <li>NOT a triangle: The sum of the lengths of any two sides of a triangle is less than or equal to the length of the third side</li>
     </ul>
 
-    <form>
-      <form action="/action_page.php">
+    <!-- <form> -->
+      <!-- <form action="/action_page.php"> -->
+      <form id="triangleTracker">
+      <div class="form-group">
+
       First value:<br>
-      <input type="text" name="firstvalue" value=""><br><br>
+      <input type="number" name="firstvalue" id="a"><br><br>
       Second value:<br>
-      <input type="text" name="secondvalue" value=""><br><br>
+      <input type="number" name="secondvalue" id="b"><br><br>
       Third value:<br>
-      <input type="text" name="thirdvalue" value=""><br>
-      <input type="submit" value="Submit">
-    </form>
+      <input type="number" name="thirdvalue" id="c"><br>
+
+      <input type="button" value="submit" onclick="triangleTracker()">
+      <p id="outputs"></p>
+      </div>
+    <!-- </form> -->
   </body>
 </html>

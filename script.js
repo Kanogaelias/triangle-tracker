@@ -1,6 +1,14 @@
-var firstValue = parseInt(prompt("firstValue"));
-var secondValue = parseInt(prompt("secondValue"));
-var thirdValue = parseInt(prompt("thirdValue"));
+function triangleTracker() {
+
+
+// var firstValue = parseInt(document.getElementById('a').value);
+// var secondValue = parseInt(document.getElementById('b').value);
+// var thirdValue = parseInt(document.getElementById('c').value);
+// var outputs = document.getElementById("outputs");
+
+var firstValue = document.getElementById('a').value;
+var secondValue = document.getElementById('b').value;
+var thirdValue = document.getElementById('c').value;
 
 if(firstValue==secondValue && secondValue==thirdValue && thirdValue==firstValue){
   alert("equilateral triangle");
@@ -16,4 +24,5 @@ else if(firstValue + secondValue <= thirdValue || firstValue + thirdValue <= sec
 }
 else {
   alert("enter valid values");
+}
 }
